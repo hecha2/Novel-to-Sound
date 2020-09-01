@@ -43,4 +43,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          error conditions that could cause the creation of the store to fail.
         */
         let container = NSPersistentContainer(name: "Alinea")
-        container.loadPersistentStores(com
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = err
