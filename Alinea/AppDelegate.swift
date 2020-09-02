@@ -44,4 +44,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         */
         let container = NSPersistentContainer(name: "Alinea")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
-            if let error = err
+            if let error = error as NSError? {
+                // Replace this implementation with code to h
