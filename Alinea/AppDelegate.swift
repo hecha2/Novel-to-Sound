@@ -50,4 +50,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                  
                 /*
                  Typical reasons for an error here include:
-                 * Th
+                 * The parent directory does not exist, cannot be created, or disallow
