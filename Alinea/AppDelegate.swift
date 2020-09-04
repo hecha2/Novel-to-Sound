@@ -50,4 +50,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                  
                 /*
                  Typical reasons for an error here include:
-                 * The parent directory does not exist, cannot be created, or disallow
+                 * The parent directory does not exist, cannot be created, or disallows writing.
+                 * The persistent store is not accessi
