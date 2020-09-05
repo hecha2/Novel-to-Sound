@@ -53,4 +53,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                  * The parent directory does not exist, cannot be created, or disallows writing.
                  * The persistent store is not accessible, due to permissions or data protection when the device is locked.
                  * The device is out of space.
-                 * The stor
+                 * The store could not be migrated to the current model version.
+           
