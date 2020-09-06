@@ -59,4 +59,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
         })
-        return contain
+        return container
+    }()
+
+    // MARK: - Core Data Saving support
+
+    func save
