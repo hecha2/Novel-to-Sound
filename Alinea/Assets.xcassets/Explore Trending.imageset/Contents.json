@@ -3,4 +3,9 @@
     {
       "filename" : "Explore Trending.png",
       "idiom" : "universal",
-      "s
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+  
