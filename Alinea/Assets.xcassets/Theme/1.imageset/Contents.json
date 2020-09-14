@@ -2,4 +2,7 @@
   "images" : [
     {
       "filename" : "Explore Themes.png.png",
-   
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+  
