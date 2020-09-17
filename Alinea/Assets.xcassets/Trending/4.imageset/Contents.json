@@ -7,4 +7,9 @@
     },
     {
       "idiom" : "universal",
-      "sc
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
