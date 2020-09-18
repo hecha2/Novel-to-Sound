@@ -2,4 +2,8 @@
   "images" : [
     {
       "filename" : "icons8-slack.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
       "idiom" : "u
