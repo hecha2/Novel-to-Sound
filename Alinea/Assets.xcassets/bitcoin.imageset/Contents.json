@@ -3,4 +3,9 @@
     {
       "filename" : "icons8-bitcoin_33.png",
       "idiom" : "universal",
-      "sc
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    }
