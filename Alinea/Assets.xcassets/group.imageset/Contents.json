@@ -1,11 +1,13 @@
+
 {
   "images" : [
     {
-      "filename" : "icons8-file.png",
+      "filename" : "baseline_group_white_36dp.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "baseline_group_white_36dp-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
