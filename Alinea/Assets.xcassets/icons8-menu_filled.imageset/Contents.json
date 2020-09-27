@@ -10,4 +10,10 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "univers
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "
