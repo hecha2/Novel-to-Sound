@@ -2,4 +2,8 @@
   "images" : [
     {
       "filename" : "icons8-menu_filled.png",
-      "idiom" : "u
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "unive
