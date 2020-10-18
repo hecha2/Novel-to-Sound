@@ -10,4 +10,4 @@ import Foundation
 import UIKit
 
 extension UIColor {
-  
+    convenience init(red: Int, green: Int, blue: Int, a: CGFloat = 1
