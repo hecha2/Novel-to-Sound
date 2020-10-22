@@ -19,4 +19,6 @@ extension UIColor {
         )
     }
     
-    convenience init(h
+    convenience init(hexString: String, a: CGFloat = 1.0) {
+        
+        var cString:Strin
