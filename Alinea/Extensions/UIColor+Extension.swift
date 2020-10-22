@@ -21,4 +21,4 @@ extension UIColor {
     
     convenience init(hexString: String, a: CGFloat = 1.0) {
         
-        var cString:Strin
+        var cString:String = hexString.trimmingCharacters(in: .whitespac
