@@ -21,4 +21,6 @@ extension UIColor {
     
     convenience init(hexString: String, a: CGFloat = 1.0) {
         
-        var cString:String = hexString.trimmingCharacters(in: .whitespac
+        var cString:String = hexString.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+        
+        if (cString.hasPrefix("#")) {
