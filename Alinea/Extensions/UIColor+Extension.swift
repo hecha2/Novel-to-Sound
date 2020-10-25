@@ -24,3 +24,6 @@ extension UIColor {
         var cString:String = hexString.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         
         if (cString.hasPrefix("#")) {
+            cString.remove(at: cString.startIndex)
+        }
+      
