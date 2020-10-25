@@ -26,4 +26,6 @@ extension UIColor {
         if (cString.hasPrefix("#")) {
             cString.remove(at: cString.startIndex)
         }
-      
+        
+        var rgbValue:UInt32 = 0
+        Scanner(string: cString).scanHexIn
