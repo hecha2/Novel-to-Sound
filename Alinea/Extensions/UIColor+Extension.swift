@@ -31,4 +31,5 @@ extension UIColor {
         Scanner(string: cString).scanHexInt32(&rgbValue)
         
         self.init(
-            red: Int
+            red: Int((rgbValue & 0xFF0000) >> 16),
+            green: Int((rgbValue & 0
