@@ -28,4 +28,7 @@ extension UIColor {
         }
         
         var rgbValue:UInt32 = 0
-        Scanner(string: cString).scanHexIn
+        Scanner(string: cString).scanHexInt32(&rgbValue)
+        
+        self.init(
+            red: Int
