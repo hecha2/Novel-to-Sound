@@ -32,4 +32,6 @@ extension UIColor {
         
         self.init(
             red: Int((rgbValue & 0xFF0000) >> 16),
-            green: Int((rgbValue & 0
+            green: Int((rgbValue & 0x00FF00) >> 8),
+            blue: Int(rgbValue & 0x0000FF),
+         
