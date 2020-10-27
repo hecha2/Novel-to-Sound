@@ -34,4 +34,8 @@ extension UIColor {
             red: Int((rgbValue & 0xFF0000) >> 16),
             green: Int((rgbValue & 0x00FF00) >> 8),
             blue: Int(rgbValue & 0x0000FF),
-         
+            a: a
+        )
+    }
+    
+    class func hexStringToUIColor (hex:String) -> UIColor {
