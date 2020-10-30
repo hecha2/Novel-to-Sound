@@ -45,4 +45,6 @@ extension UIColor {
             cString.remove(at: cString.startIndex)
         }
         
-       
+        if ((cString.count) != 6) {
+            return UIColor.gray
+    
