@@ -47,4 +47,7 @@ extension UIColor {
         
         if ((cString.count) != 6) {
             return UIColor.gray
-    
+        }
+        
+        var rgbValue:UInt32 = 0
+        Scanner(string:
