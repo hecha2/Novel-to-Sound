@@ -50,4 +50,7 @@ extension UIColor {
         }
         
         var rgbValue:UInt32 = 0
-        Scanner(string:
+        Scanner(string: cString).scanHexInt32(&rgbValue)
+        
+        return UIColor(
+           
