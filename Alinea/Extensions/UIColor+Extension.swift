@@ -53,4 +53,5 @@ extension UIColor {
         Scanner(string: cString).scanHexInt32(&rgbValue)
         
         return UIColor(
-           
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgb
