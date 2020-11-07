@@ -22,4 +22,6 @@
 	<true/>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
-		<k
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneCon
