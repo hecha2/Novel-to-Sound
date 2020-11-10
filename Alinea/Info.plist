@@ -41,4 +41,6 @@
 	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<ke
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequi
