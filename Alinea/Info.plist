@@ -50,4 +50,5 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<st
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInte
