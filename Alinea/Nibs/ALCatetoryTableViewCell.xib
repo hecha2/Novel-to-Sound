@@ -4,4 +4,4 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-  
+        <capability name="documents saved in the Xcode 8 format" m
