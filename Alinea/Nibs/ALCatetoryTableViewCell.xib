@@ -19,4 +19,4 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgP-39-f04">
                         <rect key="frame" x="20" y="20" width="280" height="80"/>
                         <subviews>
-                  
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" cont
