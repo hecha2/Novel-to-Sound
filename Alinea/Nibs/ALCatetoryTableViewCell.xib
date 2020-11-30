@@ -24,4 +24,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="IgS-Tq-5Ci"/>
                                     <constraint firstAttribute="height" constant="48" id="b2Q-8k-pPw"/>
-                                </const
+                                </constraints>
+                            </imageView>
+                        
