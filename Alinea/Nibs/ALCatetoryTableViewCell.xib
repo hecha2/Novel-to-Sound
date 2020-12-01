@@ -26,4 +26,4 @@
                                     <constraint firstAttribute="height" constant="48" id="b2Q-8k-pPw"/>
                                 </constraints>
                             </imageView>
-                        
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="l
