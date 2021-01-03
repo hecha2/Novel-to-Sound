@@ -38,4 +38,5 @@
                             <constraint firstItem="LSs-Ha-xNu" firstAttribute="centerY" secondItem="kgP-39-f04" secondAttribute="centerY" id="ZJi-kd-6Fd"/>
                             <constraint firstItem="xjQ-7P-Cab" firstAttribute="centerY" secondItem="LSs-Ha-xNu" secondAttribute="centerY" id="fTH-wO-8Bh"/>
                             <constraint firstItem="LSs-Ha-xNu" firstAttribute="leading" secondItem="kgP-39-f04" secondAttribute="leading" constant="29" id="g4m-XT-DtO"/>
-                            <constraint firstItem="xjQ-7P-Cab" firstAttribute="leading" secondItem="LSs-Ha-
+                            <constraint firstItem="xjQ-7P-Cab" firstAttribute="leading" secondItem="LSs-Ha-xNu" secondAttribute="trailing" constant="15" id="j1T-Ua-8qL"/>
+                  
