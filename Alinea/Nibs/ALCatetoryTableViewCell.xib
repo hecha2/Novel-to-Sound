@@ -43,4 +43,4 @@
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint f
+                    <constraint firstAttribute="trailing" secondItem="kgP-39-f04" secondAttribute="traili
