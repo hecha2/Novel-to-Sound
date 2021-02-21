@@ -51,4 +51,5 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="categoryImag
+                <outlet property="categoryImage" destination="LSs-Ha-xNu" id="7Mw-KO-dnt"/>
+                <ou
