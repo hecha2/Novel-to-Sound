@@ -49,3 +49,5 @@
                     <constraint firstItem="kgP-39-f04" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="nCj-tr-HJ2"/>
                 </constraints>
             </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+  
