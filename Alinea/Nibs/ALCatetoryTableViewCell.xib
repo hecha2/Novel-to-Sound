@@ -50,4 +50,5 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-  
+            <connections>
+                <outlet property="categoryImag
