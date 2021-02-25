@@ -52,4 +52,5 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="categoryImage" destination="LSs-Ha-xNu" id="7Mw-KO-dnt"/>
-                <outlet property="categoryLabel" destination="xjQ-7P-Cab" id="7Mr-kg-
+                <outlet property="categoryLabel" destination="xjQ-7P-Cab" id="7Mr-kg-7GN"/>
+                <outlet property="categoryView" destination="kgP
