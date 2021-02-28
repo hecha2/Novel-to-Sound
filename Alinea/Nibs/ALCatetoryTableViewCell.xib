@@ -53,4 +53,6 @@
             <connections>
                 <outlet property="categoryImage" destination="LSs-Ha-xNu" id="7Mw-KO-dnt"/>
                 <outlet property="categoryLabel" destination="xjQ-7P-Cab" id="7Mr-kg-7GN"/>
-                <outlet property="categoryView" destination="kgP
+                <outlet property="categoryView" destination="kgP-39-f04" id="8AJ-HN-0pN"/>
+            </connections>
+            <point key="ca
