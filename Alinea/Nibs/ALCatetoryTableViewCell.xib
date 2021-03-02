@@ -56,3 +56,7 @@
                 <outlet property="categoryView" destination="kgP-39-f04" id="8AJ-HN-0pN"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image
