@@ -59,4 +59,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image
+        <image name="bitcoin" width="50" height="50"/>
+    </resources>
+</documen
