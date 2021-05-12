@@ -16,4 +16,5 @@
                 <rect key="frame" x="0.0" y="0.0" width="143" height="147"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lan-aw-49l">
+                        <rect key="frame" x="0.0
