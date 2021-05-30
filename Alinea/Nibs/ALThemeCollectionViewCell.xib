@@ -24,4 +24,5 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="68" id="ZSj-K2-ogA"/>
                                 </constraints>
-          
+                            </imageView>
+                            <label o
