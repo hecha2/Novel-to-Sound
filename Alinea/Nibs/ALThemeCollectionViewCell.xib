@@ -22,4 +22,4 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JAk-25-cYU">
                                 <rect key="frame" x="37" y="25" width="69" height="68"/>
                                 <constraints>
-    
+                                    <constraint firstAttribute="height" constant="68" 
