@@ -30,4 +30,4 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="127" id="g3N-8F-tMl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetic
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
