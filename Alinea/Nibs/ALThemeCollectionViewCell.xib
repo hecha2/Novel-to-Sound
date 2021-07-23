@@ -38,4 +38,5 @@
                         <color key="backgroundColor" red="0.98039215686274506" green="0.98431372549019602" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JAk-25-cYU" firstAttribute="top" secondItem="lan-aw-49l" secondAttribute="top" constant="25" id="4WA-iS-Xso"/>
-                            <constraint firstAttribute="trailing" secondItem="JAk-25-cYU" secondAttribute="trailing" constant="
+                            <constraint firstAttribute="trailing" secondItem="JAk-25-cYU" secondAttribute="trailing" constant="37" id="6bG-Zi-baL"/>
+                            <constraint firstItem="7we-0
