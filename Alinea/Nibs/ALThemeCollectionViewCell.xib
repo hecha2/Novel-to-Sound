@@ -46,4 +46,6 @@
                         </constraints>
                     </view>
                 </subviews>
-            </view
+            </view>
+            <constraints>
+                <constraint firstItem="l
