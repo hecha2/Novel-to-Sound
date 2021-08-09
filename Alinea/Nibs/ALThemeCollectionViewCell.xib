@@ -49,4 +49,5 @@
             </view>
             <constraints>
                 <constraint firstItem="lan-aw-49l" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="DsB-wo-Wtd"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="lan-aw-49l" secondAttribute="bottom" id="N4w-AB-Ws7"/>
+                <constraint
