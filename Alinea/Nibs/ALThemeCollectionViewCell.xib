@@ -54,4 +54,6 @@
                 <constraint firstAttribute="top" secondItem="lan-aw-49l" secondAttribute="top" id="h6f-rT-S8O"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <size key="cust
+            <size key="customSize" width="143" height="147"/>
+            <connections>
+        
