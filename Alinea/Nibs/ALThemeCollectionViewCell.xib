@@ -56,4 +56,5 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="143" height="147"/>
             <connections>
-                <outlet property="containerView" destination="lan-aw-49l" id
+                <outlet property="containerView" destination="lan-aw-49l" id="7Dk-cc-sR9"/>
+                <outlet property="themeImageView" 
