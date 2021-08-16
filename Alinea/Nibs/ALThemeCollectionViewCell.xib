@@ -57,4 +57,5 @@
             <size key="customSize" width="143" height="147"/>
             <connections>
                 <outlet property="containerView" destination="lan-aw-49l" id="7Dk-cc-sR9"/>
-                <outlet property="themeImageView" 
+                <outlet property="themeImageView" destination="JAk-25-cYU" id="irR-OK-B3y"/>
+                <outlet p
