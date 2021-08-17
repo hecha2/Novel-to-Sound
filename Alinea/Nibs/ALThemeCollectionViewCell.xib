@@ -58,4 +58,5 @@
             <connections>
                 <outlet property="containerView" destination="lan-aw-49l" id="7Dk-cc-sR9"/>
                 <outlet property="themeImageView" destination="JAk-25-cYU" id="irR-OK-B3y"/>
-                <outlet p
+                <outlet property="themeLabel" destination="7we-0M-mGn" id="YYY-aA-jBq"/>
+            </connecti
