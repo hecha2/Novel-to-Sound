@@ -60,4 +60,7 @@
                 <outlet property="themeImageView" destination="JAk-25-cYU" id="irR-OK-B3y"/>
                 <outlet property="themeLabel" destination="7we-0M-mGn" id="YYY-aA-jBq"/>
             </connections>
-            <point key="canvasLocation" x="205.07246376811597" y="157.03125"
+            <point key="canvasLocation" x="205.07246376811597" y="157.03125"/>
+        </collectionViewCell>
+    </objects>
+</document>
