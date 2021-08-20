@@ -3,4 +3,7 @@
 //  Alinea
 //
 //  Created by jatin verma on 07/11/20.
-//  Cop
+//  Copyright © 2020 jatin verma. All rights reserved.
+//
+
+import UIK
