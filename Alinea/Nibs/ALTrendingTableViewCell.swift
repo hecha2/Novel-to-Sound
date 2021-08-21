@@ -6,4 +6,8 @@
 //  Copyright © 2020 jatin verma. All rights reserved.
 //
 
-import UIK
+import UIKit
+
+class ALTrendingTableViewCell: UITableViewCell {
+
+    @IBOutlet wea
