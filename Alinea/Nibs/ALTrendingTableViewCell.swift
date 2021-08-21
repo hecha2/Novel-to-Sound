@@ -10,4 +10,6 @@ import UIKit
 
 class ALTrendingTableViewCell: UITableViewCell {
 
-    @IBOutlet wea
+    @IBOutlet weak var tImageView: UIImageView!
+    @IBOutlet weak var tFirstLabel: UILabel!
+    
