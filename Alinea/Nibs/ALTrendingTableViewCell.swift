@@ -12,4 +12,5 @@ class ALTrendingTableViewCell: UITableViewCell {
 
     @IBOutlet weak var tImageView: UIImageView!
     @IBOutlet weak var tFirstLabel: UILabel!
-    
+    @IBOutlet weak var tSecondLabel: UILabel!
+    @IBOutlet weak var tView:
