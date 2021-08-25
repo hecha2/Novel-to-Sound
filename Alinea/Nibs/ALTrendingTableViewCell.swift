@@ -15,4 +15,7 @@ class ALTrendingTableViewCell: UITableViewCell {
     @IBOutlet weak var tSecondLabel: UILabel!
     @IBOutlet weak var tView: UIView!
     @IBOutlet weak var tLabel: UILabel!
-    override func awakeFromNib() 
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        tView.layer.cornerRadius = 17
+        tView.lay
