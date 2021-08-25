@@ -18,4 +18,4 @@ class ALTrendingTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         tView.layer.cornerRadius = 17
-        tView.lay
+        tView.layer.borderColor = UIColor.lightGray.cgColor
