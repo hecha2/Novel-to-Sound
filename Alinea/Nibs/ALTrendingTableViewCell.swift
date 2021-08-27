@@ -20,4 +20,5 @@ class ALTrendingTableViewCell: UITableViewCell {
         tView.layer.cornerRadius = 17
         tView.layer.borderColor = UIColor.lightGray.cgColor
         tView.layer.borderWidth = 0.5
-        tImageView.lay
+        tImageView.layer.cornerRadius = tImageView.bounds.height / 2
+        tImageView.clipsToBoun
