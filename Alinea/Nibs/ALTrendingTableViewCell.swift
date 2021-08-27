@@ -19,3 +19,5 @@ class ALTrendingTableViewCell: UITableViewCell {
         super.awakeFromNib()
         tView.layer.cornerRadius = 17
         tView.layer.borderColor = UIColor.lightGray.cgColor
+        tView.layer.borderWidth = 0.5
+        tImageView.lay
