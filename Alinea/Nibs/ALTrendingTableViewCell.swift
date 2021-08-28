@@ -21,4 +21,7 @@ class ALTrendingTableViewCell: UITableViewCell {
         tView.layer.borderColor = UIColor.lightGray.cgColor
         tView.layer.borderWidth = 0.5
         tImageView.layer.cornerRadius = tImageView.bounds.height / 2
-        tImageView.clipsToBoun
+        tImageView.clipsToBounds = true
+    }
+
+    override func setSelected(_ selected: Bool, animated: B
