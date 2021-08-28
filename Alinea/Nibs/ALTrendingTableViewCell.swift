@@ -24,4 +24,7 @@ class ALTrendingTableViewCell: UITableViewCell {
         tImageView.clipsToBounds = true
     }
 
-    override func setSelected(_ selected: Bool, animated: B
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+     
