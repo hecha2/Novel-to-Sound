@@ -19,4 +19,5 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kim-DA-9Zl">
                         <rect key="frame" x="20" y="14.5" width="37" height="37"/>
                         <constraints>
-                            <const
+                            <constraint firstAttribute="height" constant="37" id="BRh-K1-dzg"/>
+   
