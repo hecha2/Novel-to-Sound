@@ -20,4 +20,5 @@
                         <rect key="frame" x="20" y="14.5" width="37" height="37"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="37" id="BRh-K1-dzg"/>
-                            <constraint firstAttribute="wid
+                            <constraint firstAttribute="width" constant="37" id="pKY-2f-5Ra"/>
+                        </con
