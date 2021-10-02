@@ -23,4 +23,4 @@
                             <constraint firstAttribute="width" constant="37" id="pKY-2f-5Ra"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque=
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizing
