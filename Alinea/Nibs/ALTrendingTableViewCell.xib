@@ -21,4 +21,6 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="37" id="BRh-K1-dzg"/>
                             <constraint firstAttribute="width" constant="37" id="pKY-2f-5Ra"/>
-                        </con
+                        </constraints>
+                    </imageView>
+                    <stackView opaque=
