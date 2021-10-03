@@ -24,4 +24,5 @@
                         </constraints>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jbt-fD-Be1">
-                        <
+                        <rect key="frame" x="72" y="17" width="36" height="32.5"/>
+             
