@@ -39,4 +39,5 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                
+                    </stackView>
+                    <view contentMode="scaleToFill" translates
