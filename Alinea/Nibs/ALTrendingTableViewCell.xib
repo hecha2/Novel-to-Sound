@@ -40,4 +40,5 @@
                             </label>
                         </subviews>
                     </stackView>
-                    <view contentMode="scaleToFill" translates
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJx-Is-KdY">
+              
