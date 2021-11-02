@@ -44,4 +44,5 @@
                         <rect key="frame" x="231" y="16.5" width="69" height="33"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfK-N5-Y9x">
-                            
+                                <rect key="frame" x="21.5" y="10.5" width="26.5" height="12"/>
+           
