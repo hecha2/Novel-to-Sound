@@ -54,4 +54,5 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="33" id="7XW-Ac-GUT"/>
                             <constraint firstItem="hfK-N5-Y9x" firstAttribute="centerX" secondItem="zJx-Is-KdY" secondAttribute="centerX" id="9DR-Yx-Zgz"/>
-                            <constraint firstAttribute="width" constant="69" 
+                            <constraint firstAttribute="width" constant="69" id="ON3-13-aZk"/>
+                            <constraint firstItem="hfK-
