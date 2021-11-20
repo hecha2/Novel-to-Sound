@@ -56,4 +56,7 @@
                             <constraint firstItem="hfK-N5-Y9x" firstAttribute="centerX" secondItem="zJx-Is-KdY" secondAttribute="centerX" id="9DR-Yx-Zgz"/>
                             <constraint firstAttribute="width" constant="69" id="ON3-13-aZk"/>
                             <constraint firstItem="hfK-N5-Y9x" firstAttribute="centerY" secondItem="zJx-Is-KdY" secondAttribute="centerY" id="lDN-SH-kaI"/>
-                        </co
+                        </constraints>
+                    </view>
+                </subviews>
+   
