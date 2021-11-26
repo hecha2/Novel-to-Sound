@@ -63,4 +63,4 @@
                     <constraint firstItem="jbt-fD-Be1" firstAttribute="leading" secondItem="Kim-DA-9Zl" secondAttribute="trailing" constant="15" id="HAo-dk-iLs"/>
                     <constraint firstItem="jbt-fD-Be1" firstAttribute="centerY" secondItem="Kim-DA-9Zl" secondAttribute="centerY" id="Isa-KW-90W"/>
                     <constraint firstItem="Kim-DA-9Zl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Lrz-sk-CJU"/>
-                    <constraint firstItem="Kim-DA-9Zl" firstAttribute="leading" secondItem="H2p-sc-9uM"
+                    <constraint firstItem="Kim-DA-9Zl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Trq-bU-mMQ"/>
