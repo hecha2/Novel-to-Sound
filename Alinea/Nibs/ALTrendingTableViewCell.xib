@@ -65,4 +65,4 @@
                     <constraint firstItem="Kim-DA-9Zl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Lrz-sk-CJU"/>
                     <constraint firstItem="Kim-DA-9Zl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Trq-bU-mMQ"/>
                     <constraint firstItem="zJx-Is-KdY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aLd-Os-sgu"/>
-                    <cons
+                    <constraint firstAttribute="trailing" secondItem="zJx-Is-KdY" secondAttribute="traili
