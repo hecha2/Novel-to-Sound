@@ -66,4 +66,6 @@
                     <constraint firstItem="Kim-DA-9Zl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Trq-bU-mMQ"/>
                     <constraint firstItem="zJx-Is-KdY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aLd-Os-sgu"/>
                     <constraint firstAttribute="trailing" secondItem="zJx-Is-KdY" secondAttribute="trailing" constant="20" id="rFc-NN-tzx"/>
-                </constrain
+                </constraints>
+            </tableViewCellContentView>
+            <viewLa
