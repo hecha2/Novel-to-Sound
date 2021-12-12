@@ -68,4 +68,5 @@
                     <constraint firstAttribute="trailing" secondItem="zJx-Is-KdY" secondAttribute="trailing" constant="20" id="rFc-NN-tzx"/>
                 </constraints>
             </tableViewCellContentView>
-            <viewLa
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <co
