@@ -69,4 +69,5 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <co
+            <connections>
+                <outlet property="tFirstLabel" destin
