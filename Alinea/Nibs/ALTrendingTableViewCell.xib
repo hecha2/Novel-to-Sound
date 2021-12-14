@@ -70,4 +70,5 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="tFirstLabel" destin
+                <outlet property="tFirstLabel" destination="sWN-Bz-gcc" id="J2q-wW-mck"/>
+                <outlet propert
