@@ -71,4 +71,5 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="tFirstLabel" destination="sWN-Bz-gcc" id="J2q-wW-mck"/>
-                <outlet propert
+                <outlet property="tImageView" destination="Kim-DA-9Zl" id="9B3-PL-eKR"/>
+                
