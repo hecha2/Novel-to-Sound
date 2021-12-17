@@ -72,4 +72,4 @@
             <connections>
                 <outlet property="tFirstLabel" destination="sWN-Bz-gcc" id="J2q-wW-mck"/>
                 <outlet property="tImageView" destination="Kim-DA-9Zl" id="9B3-PL-eKR"/>
-                
+                <outlet property="tLabel" destination="hfK-N5-Y9x" id="PuZ-bC-uNG"
