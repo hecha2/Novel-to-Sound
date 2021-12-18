@@ -74,4 +74,6 @@
                 <outlet property="tImageView" destination="Kim-DA-9Zl" id="9B3-PL-eKR"/>
                 <outlet property="tLabel" destination="hfK-N5-Y9x" id="PuZ-bC-uNG"/>
                 <outlet property="tSecondLabel" destination="nVI-m2-ZI5" id="a7d-8e-tbP"/>
-                <outlet property="tView" destination="zJx-Is-KdY" id="D7U-LS
+                <outlet property="tView" destination="zJx-Is-KdY" id="D7U-LS-tRu"/>
+            </connections>
+            <point key="canvasLocation
