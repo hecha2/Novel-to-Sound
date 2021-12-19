@@ -76,4 +76,6 @@
                 <outlet property="tSecondLabel" destination="nVI-m2-ZI5" id="a7d-8e-tbP"/>
                 <outlet property="tView" destination="zJx-Is-KdY" id="D7U-LS-tRu"/>
             </connections>
-            <point key="canvasLocation
+            <point key="canvasLocation" x="137.68115942028987" y="131.91964285714286"/>
+        </tableViewCell>
+  
