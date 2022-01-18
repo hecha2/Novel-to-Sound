@@ -4,3 +4,84 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ALMainViewController" customModule="Alinea" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8rw-AG-9sY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGP-LM-baI">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="752"/>
+                                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bqd-H1-PcZ">
+                                        <rect key="frame" x="0.0" y="752" width="414" height="100"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vvb-3N-BxT">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6g-lw-SsX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="100"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_category_icon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="vny-pJ-Kjk">
+                                                                <rect key="frame" x="24" y="27.5" width="35" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="3YS-vs-kY2"/>
+                                                                    <constraint firstAttribute="width" constant="35" id="cd3-vB-Mib"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="vny-pJ-Kjk" firstAttribute="centerX" secondItem="t6g-lw-SsX" secondAttribute="centerX" id="4Eo-Es-8W4"/>
+                                                            <constraint firstItem="vny-pJ-Kjk" firstAttribute="centerY" secondItem="t6g-lw-SsX" secondAttribute="centerY" constant="-5" id="Oj7-vV-14R"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dvS-KV-IO1">
+                                                        <rect key="frame" x="83" y="0.0" width="82.5" height="100"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="IIy-jf-uDj">
+                                                                <rect key="frame" x="23.5" y="27.5" width="35" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="35" id="VZB-bc-ho2"/>
+                                                                    <constraint firstAttribute="height" constant="35" id="d00-Zg-50H"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstItem="IIy-jf-uDj" firstAttribute="centerX" secondItem="dvS-KV-IO1" secondAttribute="centerX" id="2PX-mf-iTx"/>
+                                                            <constraint firstItem="IIy-jf-uDj" firstAttribute="centerY" secondItem="dvS-KV-IO1" secondAttribute="centerY" constant="-5" id="lJ9-HL-cD5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7yb-cI-S1v">
+                                                        <rect key="frame" x="165.5" y="0.0" width="83" height="100"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_category_icon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="50g-yT-L5Q">
+                                                                <rect key="frame" x="24" y="27.5" width="35" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="H7b-6q-pvN"/>
+                                                                    <constraint firstAttribute="width" constant="35" id="yvX-da-zTK"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="50g-yT-L5Q" firstAttribute="centerY" secondItem="7yb-cI-S1v" secondAttribute="centerY" constant="-5" id="Y72-ML-yxV"/>
+                                                            <constraint firstItem="50g-yT-L5Q" firstAttribute="centerX" secondItem="7yb-cI-S1v" secondAttribute="centerX" id="kjz-Nv-LK5"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cl-yz-9NO">
+                                                        <rect key="frame" x="248.5" y="0.0" width="82.5" height="100"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_category_icon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="BqV-4Y-o3z">
