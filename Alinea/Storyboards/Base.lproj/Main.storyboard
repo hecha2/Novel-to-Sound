@@ -85,3 +85,63 @@
                                                         <rect key="frame" x="248.5" y="0.0" width="82.5" height="100"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_category_icon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="BqV-4Y-o3z">
+                                                                <rect key="frame" x="24" y="27.5" width="35" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="R33-vL-7G5"/>
+                                                                    <constraint firstAttribute="width" constant="35" id="kas-L1-YLt"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="BqV-4Y-o3z" firstAttribute="centerX" secondItem="4cl-yz-9NO" secondAttribute="centerX" id="bhb-WY-2ZU"/>
+                                                            <constraint firstItem="BqV-4Y-o3z" firstAttribute="centerY" secondItem="4cl-yz-9NO" secondAttribute="centerY" constant="-5" id="vlL-N8-pJ0"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8T-et-vh0">
+                                                        <rect key="frame" x="331" y="0.0" width="83" height="100"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore_category_icon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="BfD-Kc-CEN">
+                                                                <rect key="frame" x="24" y="27.5" width="35" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="K3Y-81-2rL"/>
+                                                                    <constraint firstAttribute="width" constant="35" id="RoB-BI-BYp"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="BfD-Kc-CEN" firstAttribute="centerY" secondItem="p8T-et-vh0" secondAttribute="centerY" constant="-5" id="RQL-2L-UmR"/>
+                                                            <constraint firstItem="BfD-Kc-CEN" firstAttribute="centerX" secondItem="p8T-et-vh0" secondAttribute="centerX" id="nRe-Yw-d1i"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="vvb-3N-BxT" secondAttribute="trailing" id="DWN-AP-KuX"/>
+                                            <constraint firstItem="vvb-3N-BxT" firstAttribute="leading" secondItem="Bqd-H1-PcZ" secondAttribute="leading" id="G4N-4F-v4C"/>
+                                            <constraint firstAttribute="height" constant="100" id="Tmg-16-zLJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="vvb-3N-BxT" secondAttribute="bottom" id="WLY-km-O8a"/>
+                                            <constraint firstItem="vvb-3N-BxT" firstAttribute="top" secondItem="Bqd-H1-PcZ" secondAttribute="top" id="oeh-pN-9Ga"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="8rw-AG-9sY" secondAttribute="top" id="DBh-eG-HRN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="8rw-AG-9sY" secondAttribute="leading" id="ZJh-ji-9j7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8rw-AG-9sY" secondAttribute="trailing" id="dky-OI-qt0"/>
+                            <constraint firstItem="8rw-AG-9sY" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="yVj-cv-sOP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="Bqd-H1-PcZ" id="k5c-SG-Q7w"/>
+                        <outlet property="contentView" destination="IGP-LM-baI" id="Rf3-z6-MEw"/>
+                        <outlet property="fifthView" destination="p8T-et-vh0" id="3ns-jI-JNt"/>
+                        <outlet property="fifthViewIcon" destination="BfD-Kc-CEN" id="aDV-fs-G2r"/>
+                        <outlet property="fileViewIcon" destination="vny-pJ-Kjk" id="zHN-eR-4St"/>
