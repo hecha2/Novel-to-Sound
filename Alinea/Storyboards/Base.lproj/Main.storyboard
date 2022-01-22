@@ -512,3 +512,26 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zo1-Dt-dkG" firstAttribute="leading" secondItem="pL7-hc-KfV" secondAttribute="leading" id="1E0-99-EHd"/>
+                            <constraint firstAttribute="bottom" secondItem="zo1-Dt-dkG" secondAttribute="bottom" id="2df-3P-odM"/>
+                            <constraint firstAttribute="trailing" secondItem="zo1-Dt-dkG" secondAttribute="trailing" id="B63-nL-h5W"/>
+                            <constraint firstItem="zo1-Dt-dkG" firstAttribute="top" secondItem="pL7-hc-KfV" secondAttribute="top" id="ONa-1x-Aoi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="zo1-Dt-dkG" id="v2N-U9-qU7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIP-IK-FdB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-351" y="1537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="explore_category_icon (1)" width="29" height="29"/>
+        <image name="icons8-bell_filled" width="50" height="50"/>
+        <image name="icons8-menu_filled" width="50" height="50"/>
+        <image name="search" width="36" height="36"/>
+    </resources>
+</document>
