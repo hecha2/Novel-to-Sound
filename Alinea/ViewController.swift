@@ -3,4 +3,11 @@
 //  Alinea
 //
 //  Created by jatin verma on 07/11/20.
-//  Copyright © 2020 jatin verma. All rights res
+//  Copyright © 2020 jatin verma. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    o
