@@ -8,4 +8,4 @@
 
 import UIKit
 
-class ALCategoryVie
+class ALCategoryViewController: UIViewController, UITableViewDataSource, UITableView
