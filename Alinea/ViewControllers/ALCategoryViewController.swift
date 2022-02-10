@@ -8,4 +8,7 @@
 
 import UIKit
 
-class ALCategoryViewController: UIViewController, UITableViewDataSource, UITableView
+class ALCategoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+
+    @IBOutlet weak var tableView: UITableView!
+    var
