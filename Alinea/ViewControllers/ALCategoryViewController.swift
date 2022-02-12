@@ -11,4 +11,5 @@ import UIKit
 class ALCategoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
-    var
+    var text = ["Stocks", "ETFs", "Crypto"]
+    override func viewDidLoad() {
