@@ -13,3 +13,5 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     @IBOutlet weak var tableView: UITableView!
     var text = ["Stocks", "ETFs", "Crypto"]
     override func viewDidLoad() {
+        super.viewDidLoad()
+        let nib = UINib(nibName: "
