@@ -14,4 +14,5 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     var text = ["Stocks", "ETFs", "Crypto"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        let nib = UINib(nibName: "
+        let nib = UINib(nibName: "ALCatetoryTableViewCell", bundle: nil)
+        tableView.register(nib, for
