@@ -15,4 +15,5 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         let nib = UINib(nibName: "ALCatetoryTableViewCell", bundle: nil)
-        tableView.register(nib, for
+        tableView.register(nib, forCellReuseIdentifier: "ALCatetoryTableViewCell")
+        tableView.tableFooterV
