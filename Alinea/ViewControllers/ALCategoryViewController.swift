@@ -16,4 +16,8 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         super.viewDidLoad()
         let nib = UINib(nibName: "ALCatetoryTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "ALCatetoryTableViewCell")
-        tableView.tableFooterV
+        tableView.tableFooterView = UIView()
+    }
+    
+    
+    func numberOfSections(in tableV
