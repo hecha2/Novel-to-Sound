@@ -20,4 +20,8 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     
-    func numberOfSections(in tableV
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+   
