@@ -24,4 +24,4 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         return 1
     }
     
-   
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)
