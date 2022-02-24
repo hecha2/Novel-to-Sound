@@ -28,4 +28,4 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         return 3
     }
     
-    func tableView(_ tableView: U
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
