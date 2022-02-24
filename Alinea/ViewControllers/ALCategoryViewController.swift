@@ -29,4 +29,5 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ALCateto
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ALCatetoryTableViewCell", for: indexPath) as! ALCatetoryTableViewCell
+        c
