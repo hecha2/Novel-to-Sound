@@ -30,4 +30,6 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ALCatetoryTableViewCell", for: indexPath) as! ALCatetoryTableViewCell
-        c
+        cell.categoryLabel.text = text[indexPath.row]
+        switch indexPath.row {
+ 
