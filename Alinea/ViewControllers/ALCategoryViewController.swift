@@ -32,4 +32,5 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         let cell = tableView.dequeueReusableCell(withIdentifier: "ALCatetoryTableViewCell", for: indexPath) as! ALCatetoryTableViewCell
         cell.categoryLabel.text = text[indexPath.row]
         switch indexPath.row {
- 
+        case 0:
+            cell.categoryView.backgroundColor 
