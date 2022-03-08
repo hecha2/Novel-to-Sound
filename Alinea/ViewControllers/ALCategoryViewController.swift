@@ -33,4 +33,6 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         cell.categoryLabel.text = text[indexPath.row]
         switch indexPath.row {
         case 0:
-            cell.categoryView.backgroundColor 
+            cell.categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: "A1A1F3")
+        case 1:
+            cell.
