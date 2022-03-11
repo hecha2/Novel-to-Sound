@@ -37,4 +37,9 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
         case 1:
             cell.categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: "4C4DC3")
         default:
-            cell.categoryView.backgroundColor = UIColor.hex
+            cell.categoryView.backgroundColor = UIColor.hexStringToUIColor(hex: "F7D85C")
+        }
+        return cell
+    }
+    
+    
