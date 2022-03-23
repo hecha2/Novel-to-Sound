@@ -47,4 +47,6 @@ class ALCategoryViewController: UIViewController, UITableViewDataSource, UITable
     }
 
     /*
-    // MARK: - Navigati
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a
