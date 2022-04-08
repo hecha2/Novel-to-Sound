@@ -8,4 +8,6 @@
 
 import UIKit
 
-class
+class ALMainViewController: UIViewController {
+    
+    @IBOutlet weak var b
