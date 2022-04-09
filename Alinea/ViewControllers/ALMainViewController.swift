@@ -10,4 +10,6 @@ import UIKit
 
 class ALMainViewController: UIViewController {
     
-    @IBOutlet weak var b
+    @IBOutlet weak var bottomView: UIView!
+    @IBOutlet var contentView: UIView!
+    @IBOutlet 
