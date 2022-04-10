@@ -12,4 +12,5 @@ class ALMainViewController: UIViewController {
     
     @IBOutlet weak var bottomView: UIView!
     @IBOutlet var contentView: UIView!
-    @IBOutlet 
+    @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var secondView: UIV
