@@ -13,4 +13,6 @@ class ALMainViewController: UIViewController {
     @IBOutlet weak var bottomView: UIView!
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var firstView: UIView!
-    @IBOutlet weak var secondView: UIV
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var thirdView: UIView!
+    @IBOutlet weak var four
