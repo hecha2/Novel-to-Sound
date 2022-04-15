@@ -20,4 +20,5 @@ class ALMainViewController: UIViewController {
     @IBOutlet weak var secondViewIcon: UIImageView!
     @IBOutlet weak var fourthViewIcon: UIImageView!
     @IBOutlet weak var fifthViewIcon: UIImageView!
-    @IBOutlet
+    @IBOutlet weak var thirdViewIcon: UIImageView!
+    @IBOutlet weak var fileVie
