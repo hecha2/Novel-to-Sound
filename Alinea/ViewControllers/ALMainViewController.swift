@@ -21,4 +21,7 @@ class ALMainViewController: UIViewController {
     @IBOutlet weak var fourthViewIcon: UIImageView!
     @IBOutlet weak var fifthViewIcon: UIImageView!
     @IBOutlet weak var thirdViewIcon: UIImageView!
-    @IBOutlet weak var fileVie
+    @IBOutlet weak var fileViewIcon: UIImageView!
+    
+    let SEARCH_ICON = "search"
+    let GROUP_ICON = "g
