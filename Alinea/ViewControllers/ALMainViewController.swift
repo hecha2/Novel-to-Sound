@@ -24,4 +24,7 @@ class ALMainViewController: UIViewController {
     @IBOutlet weak var fileViewIcon: UIImageView!
     
     let SEARCH_ICON = "search"
-    let GROUP_ICON = "g
+    let GROUP_ICON = "group"
+    let BULB_ICON = "lightbulb"
+    let TRADE_ICON = "trade"
+    
