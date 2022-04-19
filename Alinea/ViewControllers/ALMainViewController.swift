@@ -29,4 +29,5 @@ class ALMainViewController: UIViewController {
     let TRADE_ICON = "trade"
     let FILE_ICON = "file"
     let firstVC = "al_first_view_controller"
-    let seco
+    let secondVC = "al_second_view_controller"
+    var firstViewController: ALFirstVie
