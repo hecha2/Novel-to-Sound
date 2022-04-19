@@ -27,4 +27,6 @@ class ALMainViewController: UIViewController {
     let GROUP_ICON = "group"
     let BULB_ICON = "lightbulb"
     let TRADE_ICON = "trade"
-    
+    let FILE_ICON = "file"
+    let firstVC = "al_first_view_controller"
+    let seco
