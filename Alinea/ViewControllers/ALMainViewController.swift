@@ -32,3 +32,5 @@ class ALMainViewController: UIViewController {
     let secondVC = "al_second_view_controller"
     var firstViewController: ALFirstViewController!
     var searchViewController: ALSecondViewController!
+    var viewControllers: [UIViewController]!
+    var selectedIndex: Int = 0
