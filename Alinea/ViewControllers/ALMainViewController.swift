@@ -34,3 +34,7 @@ class ALMainViewController: UIViewController {
     var searchViewController: ALSecondViewController!
     var viewControllers: [UIViewController]!
     var selectedIndex: Int = 0
+
+    
+    override func viewDidLoad() {
+        super.viewDid
