@@ -30,4 +30,5 @@ class ALMainViewController: UIViewController {
     let FILE_ICON = "file"
     let firstVC = "al_first_view_controller"
     let secondVC = "al_second_view_controller"
-    var firstViewController: ALFirstVie
+    var firstViewController: ALFirstViewController!
+    var searchViewController: ALSecondViewController!
