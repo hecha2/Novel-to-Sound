@@ -40,4 +40,8 @@ class ALMainViewController: UIViewController {
         super.viewDidLoad()
         setupLink()
         setupUI()
-        setupGes
+        setupGesture()
+    }
+    
+    func setupLink() {
+        let storyboard = U
