@@ -44,4 +44,5 @@ class ALMainViewController: UIViewController {
     }
     
     func setupLink() {
-        let storyboard = U
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        firstViewController = 
