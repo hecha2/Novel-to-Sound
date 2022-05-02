@@ -37,4 +37,7 @@ class ALMainViewController: UIViewController {
 
     
     override func viewDidLoad() {
-        super.viewDid
+        super.viewDidLoad()
+        setupLink()
+        setupUI()
+        setupGes
