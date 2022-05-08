@@ -45,4 +45,4 @@ class ALMainViewController: UIViewController {
     
     func setupLink() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        firstViewController = 
+        firstViewController = storyboard.instantiateViewController(withIdentifier: firstVC) as? AL
