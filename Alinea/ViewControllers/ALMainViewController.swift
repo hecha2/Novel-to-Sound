@@ -45,4 +45,5 @@ class ALMainViewController: UIViewController {
     
     func setupLink() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        firstViewController = storyboard.instantiateViewController(withIdentifier: firstVC) as? AL
+        firstViewController = storyboard.instantiateViewController(withIdentifier: firstVC) as? ALFirstViewController
+        searchViewController = s
