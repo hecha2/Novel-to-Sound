@@ -52,4 +52,4 @@ class ALMainViewController: UIViewController {
     }
     
     func setupGesture() {
-        let firstView
+        let firstViewTap = UITapGestureRecognizer(target: self, action: #selector(firstVi
