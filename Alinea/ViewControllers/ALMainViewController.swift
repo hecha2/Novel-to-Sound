@@ -47,4 +47,9 @@ class ALMainViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         firstViewController = storyboard.instantiateViewController(withIdentifier: firstVC) as? ALFirstViewController
         searchViewController = storyboard.instantiateViewController(withIdentifier: secondVC) as? ALSecondViewController
-        viewControllers = [firstViewController, searchViewContr
+        viewControllers = [firstViewController, searchViewController]
+        
+    }
+    
+    func setupGesture() {
+        let firstView
