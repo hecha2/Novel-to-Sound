@@ -52,4 +52,6 @@ class ALMainViewController: UIViewController {
     }
     
     func setupGesture() {
-        let firstViewTap = UITapGestureRecognizer(target: self, action: #selector(firstVi
+        let firstViewTap = UITapGestureRecognizer(target: self, action: #selector(firstViewTappedGesture))
+        firstView.addGestureRecognizer(firstViewTap)
+  
