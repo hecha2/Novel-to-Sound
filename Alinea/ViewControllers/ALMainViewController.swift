@@ -56,4 +56,5 @@ class ALMainViewController: UIViewController {
         firstView.addGestureRecognizer(firstViewTap)
         let secondViewTap = UITapGestureRecognizer(target: self, action: #selector(secondViewTappedGesture))
         secondView.addGestureRecognizer(secondViewTap)
-        let thirdViewTap = UITapGestureRecognizer(target: self, action
+        let thirdViewTap = UITapGestureRecognizer(target: self, action: #selector(thirdViewTappedGesture))
+        thirdView.addGes
