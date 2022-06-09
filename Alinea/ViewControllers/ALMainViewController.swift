@@ -65,4 +65,5 @@ class ALMainViewController: UIViewController {
     }
     
     //MARK:- Gestures
-    @objc func firstVie
+    @objc func firstViewTappedGesture() {
+        changeColorView(color: UIColor.hexStringToUIColor
