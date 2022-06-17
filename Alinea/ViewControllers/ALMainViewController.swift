@@ -69,4 +69,5 @@ class ALMainViewController: UIViewController {
         changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: firstView)
         changeColorView(color: UIColor.white, view: secondView)
         changeColorView(color: UIColor.white, view: thirdView)
-        changeColorView(color: UIColor.white,
+        changeColorView(color: UIColor.white, view: fourthView)
+        changeColorView(color: UIColor.white, vie
