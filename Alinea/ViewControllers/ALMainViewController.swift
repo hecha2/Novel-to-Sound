@@ -70,4 +70,5 @@ class ALMainViewController: UIViewController {
         changeColorView(color: UIColor.white, view: secondView)
         changeColorView(color: UIColor.white, view: thirdView)
         changeColorView(color: UIColor.white, view: fourthView)
-        changeColorView(color: UIColor.white, vie
+        changeColorView(color: UIColor.white, view: fifthView)
+        changeIconColor(color: UIColor.lightGray, image: SE
