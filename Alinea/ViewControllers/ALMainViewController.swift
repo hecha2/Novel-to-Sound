@@ -78,4 +78,5 @@ class ALMainViewController: UIViewController {
         changeIconColor(color: UIColor.white, image: FILE_ICON, imageView: fileViewIcon)
         let previousIndex = selectedIndex
         selectedIndex = 0
-     
+        let previousVC = viewControllers[previousIndex]
+       
