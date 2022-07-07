@@ -88,4 +88,5 @@ class ALMainViewController: UIViewController {
         contentView.insertSubview(vc.view, at: 0)
     }
     @objc func secondViewTappedGesture() {
-        changeColorView(col
+        changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: secondView)
+    
