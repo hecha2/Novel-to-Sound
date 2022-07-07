@@ -86,4 +86,6 @@ class ALMainViewController: UIViewController {
         addChild(vc)
         vc.view.frame = contentView.bounds
         contentView.insertSubview(vc.view, at: 0)
-   
+    }
+    @objc func secondViewTappedGesture() {
+        changeColorView(col
