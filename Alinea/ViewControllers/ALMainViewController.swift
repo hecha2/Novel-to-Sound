@@ -92,4 +92,5 @@ class ALMainViewController: UIViewController {
         changeColorView(color: UIColor.white, view: firstView)
         changeColorView(color: UIColor.white, view: thirdView)
         changeColorView(color: UIColor.white, view: fourthView)
-       
+        changeColorView(color: UIColor.white, view: fifthView)
+        changeI
