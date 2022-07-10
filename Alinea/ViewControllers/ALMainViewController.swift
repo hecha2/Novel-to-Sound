@@ -93,4 +93,4 @@ class ALMainViewController: UIViewController {
         changeColorView(color: UIColor.white, view: thirdView)
         changeColorView(color: UIColor.white, view: fourthView)
         changeColorView(color: UIColor.white, view: fifthView)
-        changeI
+        changeIconColor(color: UIColor.white, image: SEARCH_ICON, imageV
