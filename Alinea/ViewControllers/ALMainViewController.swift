@@ -102,4 +102,6 @@ class ALMainViewController: UIViewController {
         selectedIndex = 1
         let previousVC = viewControllers[previousIndex]
         previousVC.willMove(toParent: nil)
-        previousVC.view.rem
+        previousVC.view.removeFromSuperview()
+        previousVC.removeFromParent()
+        let 
