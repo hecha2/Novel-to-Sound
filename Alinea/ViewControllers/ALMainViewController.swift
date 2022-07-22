@@ -104,4 +104,6 @@ class ALMainViewController: UIViewController {
         previousVC.willMove(toParent: nil)
         previousVC.view.removeFromSuperview()
         previousVC.removeFromParent()
-        let 
+        let vc = viewControllers[selectedIndex]
+        addChild(vc)
+        vc.view.frame = 
