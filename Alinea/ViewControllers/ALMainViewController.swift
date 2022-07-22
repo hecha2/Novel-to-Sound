@@ -106,4 +106,5 @@ class ALMainViewController: UIViewController {
         previousVC.removeFromParent()
         let vc = viewControllers[selectedIndex]
         addChild(vc)
-        vc.view.frame = 
+        vc.view.frame = contentView.bounds
+        contentView.insertSubview(vc.view, at: 0)
