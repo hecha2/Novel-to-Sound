@@ -110,4 +110,5 @@ class ALMainViewController: UIViewController {
         contentView.insertSubview(vc.view, at: 0)
     }
     @objc func thirdViewTappedGesture() {
-        changeColorView(color
+        changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: thirdView)
+        changeC
