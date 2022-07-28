@@ -111,4 +111,5 @@ class ALMainViewController: UIViewController {
     }
     @objc func thirdViewTappedGesture() {
         changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: thirdView)
-        changeC
+        changeColorView(color: UIColor.white, view: secondView)
+        changeColo
