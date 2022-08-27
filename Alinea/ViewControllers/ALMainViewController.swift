@@ -125,4 +125,5 @@ class ALMainViewController: UIViewController {
         let previousVC = viewControllers[previousIndex]
         previousVC.willMove(toParent: nil)
         previousVC.view.removeFromSuperview()
-        previ
+        previousVC.removeFromParent()
+        let vc = viewControllers[selectedIndex]
