@@ -127,3 +127,5 @@ class ALMainViewController: UIViewController {
         previousVC.view.removeFromSuperview()
         previousVC.removeFromParent()
         let vc = viewControllers[selectedIndex]
+        addChild(vc)
+        vc.view.frame = contentView.b
