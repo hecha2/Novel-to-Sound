@@ -131,4 +131,5 @@ class ALMainViewController: UIViewController {
         vc.view.frame = contentView.bounds
         contentView.insertSubview(vc.view, at: 0)
     }
-    
+    @objc func fourthViewTappedGesture() {
+        changeColorView(color: UIColor
