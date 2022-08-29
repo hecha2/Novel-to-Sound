@@ -133,4 +133,5 @@ class ALMainViewController: UIViewController {
     }
     @objc func fourthViewTappedGesture() {
         changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: fourthView)
-        changeColorV
+        changeColorView(color: UIColor.white, view: secondView)
+        changeColorView(color: UICol
