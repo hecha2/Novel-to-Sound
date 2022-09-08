@@ -140,4 +140,5 @@ class ALMainViewController: UIViewController {
         changeIconColor(color: UIColor.lightGray, image: SEARCH_ICON, imageView: secondViewIcon)
         changeIconColor(color: UIColor.white, image: GROUP_ICON, imageView: fourthViewIcon)
         changeIconColor(color: UIColor.lightGray, image: BULB_ICON, imageView: fifthViewIcon)
-        changeIconColor(color: UIColor.lightGray, image: TRADE_ICON, imag
+        changeIconColor(color: UIColor.lightGray, image: TRADE_ICON, imageView: thirdViewIcon)
+        changeIconColor(color: UIColor.lightGray, 
