@@ -154,4 +154,4 @@ class ALMainViewController: UIViewController {
         contentView.insertSubview(vc.view, at: 0)
     }
     @objc func fifthViewTappedGesture() {
-        change
+        changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: 
