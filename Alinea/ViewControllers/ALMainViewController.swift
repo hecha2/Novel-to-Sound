@@ -151,4 +151,7 @@ class ALMainViewController: UIViewController {
         let vc = viewControllers[selectedIndex]
         addChild(vc)
         vc.view.frame = contentView.bounds
-        contentView.insertSubview(vc.vie
+        contentView.insertSubview(vc.view, at: 0)
+    }
+    @objc func fifthViewTappedGesture() {
+        change
