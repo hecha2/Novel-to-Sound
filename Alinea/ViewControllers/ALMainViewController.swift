@@ -173,4 +173,9 @@ class ALMainViewController: UIViewController {
         let vc = viewControllers[selectedIndex]
         addChild(vc)
         vc.view.frame = contentView.bounds
-        contentView.insertSubview
+        contentView.insertSubview(vc.view, at: 0)
+    }
+    
+    //MARK:- UI Related
+    func setupUI() {
+ 
