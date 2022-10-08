@@ -180,4 +180,6 @@ class ALMainViewController: UIViewController {
     func setupUI() {
         bottomView.layer.shadowOffset = CGSize(width: 0, height: 2)
         bottomView.layer.shadowRadius = 5
-        bottomView.layer.shadowColor = 
+        bottomView.layer.shadowColor = UIColor.black.cgColor
+        bottomView.layer.shadowOpacity = 1
+     
