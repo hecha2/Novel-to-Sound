@@ -178,4 +178,5 @@ class ALMainViewController: UIViewController {
     
     //MARK:- UI Related
     func setupUI() {
- 
+        bottomView.layer.shadowOffset = CGSize(width: 0, height: 2)
+       
