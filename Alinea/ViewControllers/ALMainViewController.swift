@@ -182,4 +182,5 @@ class ALMainViewController: UIViewController {
         bottomView.layer.shadowRadius = 5
         bottomView.layer.shadowColor = UIColor.black.cgColor
         bottomView.layer.shadowOpacity = 1
-     
+        bottomView.layer.cornerRadius = 10
+        bottomView.layer.maskedCor
