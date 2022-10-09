@@ -184,4 +184,5 @@ class ALMainViewController: UIViewController {
         bottomView.layer.shadowOpacity = 1
         bottomView.layer.cornerRadius = 10
         bottomView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        bott
+        bottomView.clipsToBounds = true
+        changeColorView(color: UICo
