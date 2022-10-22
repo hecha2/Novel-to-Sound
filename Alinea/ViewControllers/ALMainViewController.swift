@@ -187,4 +187,5 @@ class ALMainViewController: UIViewController {
         bottomView.clipsToBounds = true
         changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: firstView)
         changeColorView(color: UIColor.white, view: secondView)
-        c
+        changeColorView(color: UIColor.white, view: thirdView)
+        changeColor
