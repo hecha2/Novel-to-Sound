@@ -186,4 +186,5 @@ class ALMainViewController: UIViewController {
         bottomView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         bottomView.clipsToBounds = true
         changeColorView(color: UIColor.hexStringToUIColor(hex: "4C4DC2"), view: firstView)
-       
+        changeColorView(color: UIColor.white, view: secondView)
+        c
