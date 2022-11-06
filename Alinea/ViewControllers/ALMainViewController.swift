@@ -196,4 +196,6 @@ class ALMainViewController: UIViewController {
         changeIconColor(color: UIColor.lightGray, image: TRADE_ICON, imageView: thirdViewIcon)
         changeIconColor(color: UIColor.white, image: FILE_ICON, imageView: fileViewIcon)
         let previousIndex = selectedIndex
-        selecte
+        selectedIndex = 0
+        let previousVC = viewControllers[previousIndex]
+        pr
