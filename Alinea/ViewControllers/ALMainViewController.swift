@@ -207,4 +207,8 @@ class ALMainViewController: UIViewController {
         contentView.insertSubview(vc.view, at: 0)
     }
     
-    func changeColorView(color: UIColor, view: UI
+    func changeColorView(color: UIColor, view: UIView) {
+        view.backgroundColor = color
+    }
+    
+    func cha
