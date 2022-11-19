@@ -204,4 +204,7 @@ class ALMainViewController: UIViewController {
         let vc = viewControllers[selectedIndex]
         addChild(vc)
         vc.view.frame = contentView.bounds
-        contentView.insertSubvie
+        contentView.insertSubview(vc.view, at: 0)
+    }
+    
+    func changeColorView(color: UIColor, view: UI
