@@ -211,4 +211,4 @@ class ALMainViewController: UIViewController {
         view.backgroundColor = color
     }
     
-    func cha
+    func changeIconColor(color: UIColor, image: String, imageView: UIImageVie
