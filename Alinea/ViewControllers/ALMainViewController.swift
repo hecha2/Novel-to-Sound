@@ -211,4 +211,6 @@ class ALMainViewController: UIViewController {
         view.backgroundColor = color
     }
     
-    func changeIconColor(color: UIColor, image: String, imageView: UIImageVie
+    func changeIconColor(color: UIColor, image: String, imageView: UIImageView) {
+        let homeIc = UIImage(named: image)
+        imageView.image =
