@@ -217,4 +217,6 @@ class ALMainViewController: UIViewController {
     }
     
     /*
-     // MARK: - Navigati
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to
