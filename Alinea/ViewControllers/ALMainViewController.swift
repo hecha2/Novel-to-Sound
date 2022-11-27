@@ -213,4 +213,8 @@ class ALMainViewController: UIViewController {
     
     func changeIconColor(color: UIColor, image: String, imageView: UIImageView) {
         let homeIc = UIImage(named: image)
-        imageView.image =
+        imageView.image = homeIc!.maskWithColor(color: color)
+    }
+    
+    /*
+     // MARK: - Navigati
