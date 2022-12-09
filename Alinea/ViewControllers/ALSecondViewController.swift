@@ -8,4 +8,6 @@
 
 import UIKit
 
-cl
+class ALSecondViewController: UIViewController {
+    
+    @IBO
