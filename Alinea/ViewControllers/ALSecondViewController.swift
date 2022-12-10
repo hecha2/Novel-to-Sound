@@ -10,4 +10,5 @@ import UIKit
 
 class ALSecondViewController: UIViewController {
     
-    @IBO
+    @IBOutlet weak var firstContainerView: UIView!
+    @IBOutlet weak var secondCon
