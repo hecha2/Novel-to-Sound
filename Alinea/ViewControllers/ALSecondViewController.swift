@@ -11,4 +11,5 @@ import UIKit
 class ALSecondViewController: UIViewController {
     
     @IBOutlet weak var firstContainerView: UIView!
-    @IBOutlet weak var secondCon
+    @IBOutlet weak var secondContainerView: UIView!
+    @IBOutlet weak var thirdContai
