@@ -14,4 +14,6 @@ class ALSecondViewController: UIViewController {
     @IBOutlet weak var secondContainerView: UIView!
     @IBOutlet weak var thirdContainerView: UIView!
     @IBOutlet weak var firstView: UIView!
-    @IBOutlet weak var secon
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var thirdView: UIView!
+    @IBOutlet weak va
