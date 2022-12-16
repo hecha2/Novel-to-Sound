@@ -18,4 +18,5 @@ class ALSecondViewController: UIViewController {
     @IBOutlet weak var thirdView: UIView!
     @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var firstLineView: UIView!
-    @IBOutlet wea
+    @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet weak var secondLineView: UIView
