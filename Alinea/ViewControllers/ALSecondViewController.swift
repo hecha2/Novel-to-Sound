@@ -21,4 +21,5 @@ class ALSecondViewController: UIViewController {
     @IBOutlet weak var secondLabel: UILabel!
     @IBOutlet weak var secondLineView: UIView!
     @IBOutlet weak var thirdLabel: UILabel!
-    
+    @IBOutlet weak var thirdLineView: UIView!
+    override func viewDidL
