@@ -22,4 +22,7 @@ class ALSecondViewController: UIViewController {
     @IBOutlet weak var secondLineView: UIView!
     @IBOutlet weak var thirdLabel: UILabel!
     @IBOutlet weak var thirdLineView: UIView!
-    override func viewDidL
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupGesture()
+  
