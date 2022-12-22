@@ -25,4 +25,5 @@ class ALSecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupGesture()
-  
+        firstLabel.textColor = UIColor.hexStringToUIColor(hex: "2B2CC4")
+      
