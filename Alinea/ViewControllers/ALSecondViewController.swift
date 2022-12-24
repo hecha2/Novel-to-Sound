@@ -27,4 +27,5 @@ class ALSecondViewController: UIViewController {
         setupGesture()
         firstLabel.textColor = UIColor.hexStringToUIColor(hex: "2B2CC4")
         thirdLabel.textColor = UIColor.darkGray
-        secondLabel.textColor
+        secondLabel.textColor = UIColor.darkGray
+        firstContainerView.alpha =
