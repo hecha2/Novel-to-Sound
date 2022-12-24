@@ -32,4 +32,8 @@ class ALSecondViewController: UIViewController {
         secondContainerView.alpha = 0
         thirdContainerView.alpha = 0
         secondLineView.isHidden = true
-        thirdL
+        thirdLineView.isHidden = true
+    }
+    
+    func setupGesture() {
+        l
