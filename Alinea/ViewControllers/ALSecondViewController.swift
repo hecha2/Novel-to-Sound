@@ -37,4 +37,5 @@ class ALSecondViewController: UIViewController {
     
     func setupGesture() {
         let firstViewTap = UITapGestureRecognizer(target: self, action: #selector(firstViewTappedGesture))
-        firstView.addGestureRec
+        firstView.addGestureRecognizer(firstViewTap)
+        let secondViewTap = UITapG
