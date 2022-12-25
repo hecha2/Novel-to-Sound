@@ -36,4 +36,4 @@ class ALSecondViewController: UIViewController {
     }
     
     func setupGesture() {
-        l
+        let firstViewTap = UITapGestureRecognizer(target: self, action: 
