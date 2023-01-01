@@ -44,4 +44,5 @@ class ALSecondViewController: UIViewController {
         thirdView.addGestureRecognizer(thirdViewTap)
     }
     
-    @objc fu
+    @objc func firstViewTappedGesture() {
+        firstLabel.textColor = UIColor.hexStri
