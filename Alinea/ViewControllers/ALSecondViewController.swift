@@ -52,4 +52,8 @@ class ALSecondViewController: UIViewController {
         secondContainerView.alpha = 0
         thirdContainerView.alpha = 0
         secondLineView.isHidden = true
-        thirdLineView.is
+        thirdLineView.isHidden = true
+        firstLineView.isHidden = false
+    }
+    
+    @o
