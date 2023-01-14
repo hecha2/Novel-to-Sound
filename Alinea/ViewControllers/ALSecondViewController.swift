@@ -58,4 +58,6 @@ class ALSecondViewController: UIViewController {
     
     @objc func secondViewTappedGesture() {
         secondLabel.textColor = UIColor.hexStringToUIColor(hex: "2B2CC4")
-        firstLabel.textColor = UIColor.dar
+        firstLabel.textColor = UIColor.darkGray
+        thirdLabel.textColor = UIColor.darkGray
+        firstContainerView.alpha
