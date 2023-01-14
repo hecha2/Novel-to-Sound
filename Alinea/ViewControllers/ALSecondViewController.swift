@@ -56,4 +56,5 @@ class ALSecondViewController: UIViewController {
         firstLineView.isHidden = false
     }
     
-    @o
+    @objc func secondViewTappedGesture() {
+        secondLabel.textColor = UIColor.he
