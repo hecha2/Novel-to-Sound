@@ -68,4 +68,5 @@ class ALSecondViewController: UIViewController {
         secondLineView.isHidden = false
     }
     
-    @objc func th
+    @objc func thirdViewTappedGesture() {
+        thirdLabel.textColor = UIColor.hexString
