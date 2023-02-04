@@ -72,4 +72,6 @@ class ALSecondViewController: UIViewController {
         thirdLabel.textColor = UIColor.hexStringToUIColor(hex: "2B2CC4")
         firstLabel.textColor = UIColor.darkGray
         secondLabel.textColor = UIColor.darkGray
-        firstContainerVie
+        firstContainerView.alpha = 0
+        secondContainerView.alpha = 0
+        thirdContainerView.alph
