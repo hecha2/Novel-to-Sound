@@ -81,4 +81,6 @@ class ALSecondViewController: UIViewController {
     }
     
     /*
+     // MARK: - Navigation
      
+     // In a storyboard-based application, you will
