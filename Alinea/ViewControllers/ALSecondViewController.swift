@@ -74,4 +74,6 @@ class ALSecondViewController: UIViewController {
         secondLabel.textColor = UIColor.darkGray
         firstContainerView.alpha = 0
         secondContainerView.alpha = 0
-        thirdContainerView.alph
+        thirdContainerView.alpha = 1
+        secondLineView.isHidden = true
+        
