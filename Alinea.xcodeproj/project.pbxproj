@@ -23,3 +23,63 @@
 		3E7F26A725564C2800ABE8A5 /* ALFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26A625564C2800ABE8A5 /* ALFirstViewController.swift */; };
 		3E7F26A925564C3100ABE8A5 /* ALSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26A825564C3100ABE8A5 /* ALSecondViewController.swift */; };
 		3E7F26AB2556545300ABE8A5 /* ALThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26AA2556545300ABE8A5 /* ALThemesViewController.swift */; };
+		3E7F26AF255654BC00ABE8A5 /* ALThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26AD255654BC00ABE8A5 /* ALThemeCollectionViewCell.swift */; };
+		3E7F26B0255654BC00ABE8A5 /* ALThemeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7F26AE255654BC00ABE8A5 /* ALThemeCollectionViewCell.xib */; };
+		3E7F26B325565B7900ABE8A5 /* ALTrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26B125565B7900ABE8A5 /* ALTrendingTableViewCell.swift */; };
+		3E7F26B425565B7900ABE8A5 /* ALTrendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7F26B225565B7900ABE8A5 /* ALTrendingTableViewCell.xib */; };
+		3E7F26B625565C5400ABE8A5 /* ALTrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26B525565C5400ABE8A5 /* ALTrendingViewController.swift */; };
+		3E7F26B925565F4000ABE8A5 /* ALCatetoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26B725565F4000ABE8A5 /* ALCatetoryTableViewCell.swift */; };
+		3E7F26BA25565F4000ABE8A5 /* ALCatetoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7F26B825565F4000ABE8A5 /* ALCatetoryTableViewCell.xib */; };
+		3E7F26BC25565FE300ABE8A5 /* ALCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F26BB25565FE300ABE8A5 /* ALCategoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7F26812556391F00ABE8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7F265F2556391900ABE8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7F26662556391900ABE8A5;
+			remoteInfo = Alinea;
+		};
+		3E7F268C2556391F00ABE8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7F265F2556391900ABE8A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7F26662556391900ABE8A5;
+			remoteInfo = Alinea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E7F26672556391900ABE8A5 /* Alinea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alinea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F266A2556391900ABE8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E7F266C2556391900ABE8A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E7F266E2556391900ABE8A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E7F26712556391900ABE8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7F26742556391900ABE8A5 /* Alinea.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alinea.xcdatamodel; sourceTree = "<group>"; };
+		3E7F26762556391F00ABE8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7F26792556391F00ABE8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7F267B2556391F00ABE8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7F26802556391F00ABE8A5 /* AlineaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlineaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F26842556391F00ABE8A5 /* AlineaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaTests.swift; sourceTree = "<group>"; };
+		3E7F26862556391F00ABE8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7F268B2556391F00ABE8A5 /* AlineaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlineaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F268F2556391F00ABE8A5 /* AlineaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlineaUITests.swift; sourceTree = "<group>"; };
+		3E7F26912556391F00ABE8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7F269F2556397F00ABE8A5 /* ALMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALMainViewController.swift; sourceTree = "<group>"; };
+		3E7F26A225563F2900ABE8A5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3E7F26A4255645FC00ABE8A5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3E7F26A625564C2800ABE8A5 /* ALFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALFirstViewController.swift; sourceTree = "<group>"; };
+		3E7F26A825564C3100ABE8A5 /* ALSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALSecondViewController.swift; sourceTree = "<group>"; };
+		3E7F26AA2556545300ABE8A5 /* ALThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALThemesViewController.swift; sourceTree = "<group>"; };
+		3E7F26AD255654BC00ABE8A5 /* ALThemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E7F26AE255654BC00ABE8A5 /* ALThemeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALThemeCollectionViewCell.xib; sourceTree = "<group>"; };
+		3E7F26B125565B7900ABE8A5 /* ALTrendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTrendingTableViewCell.swift; sourceTree = "<group>"; };
+		3E7F26B225565B7900ABE8A5 /* ALTrendingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALTrendingTableViewCell.xib; sourceTree = "<group>"; };
+		3E7F26B525565C5400ABE8A5 /* ALTrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALTrendingViewController.swift; sourceTree = "<group>"; };
+		3E7F26B725565F4000ABE8A5 /* ALCatetoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALCatetoryTableViewCell.swift; sourceTree = "<group>"; };
+		3E7F26B825565F4000ABE8A5 /* ALCatetoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ALCatetoryTableViewCell.xib; sourceTree = "<group>"; };
+		3E7F26BB25565FE300ABE8A5 /* ALCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALCategoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
