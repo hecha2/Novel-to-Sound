@@ -83,3 +83,79 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E7F26642556391900ABE8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F267D2556391F00ABE8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F26882556391F00ABE8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7F265E2556391900ABE8A5 = {
+			isa = PBXGroup;
+			children = (
+				3E7F26692556391900ABE8A5 /* Alinea */,
+				3E7F26832556391F00ABE8A5 /* AlineaTests */,
+				3E7F268E2556391F00ABE8A5 /* AlineaUITests */,
+				3E7F26682556391900ABE8A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7F26682556391900ABE8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26672556391900ABE8A5 /* Alinea.app */,
+				3E7F26802556391F00ABE8A5 /* AlineaTests.xctest */,
+				3E7F268B2556391F00ABE8A5 /* AlineaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7F26692556391900ABE8A5 /* Alinea */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26AC255654A900ABE8A5 /* Nibs */,
+				3E7F26A125563F1900ABE8A5 /* Extensions */,
+				3E7F269E2556396900ABE8A5 /* ViewControllers */,
+				3E7F269D2556395800ABE8A5 /* Storyboards */,
+				3E7F266A2556391900ABE8A5 /* AppDelegate.swift */,
+				3E7F266C2556391900ABE8A5 /* SceneDelegate.swift */,
+				3E7F266E2556391900ABE8A5 /* ViewController.swift */,
+				3E7F26762556391F00ABE8A5 /* Assets.xcassets */,
+				3E7F26782556391F00ABE8A5 /* LaunchScreen.storyboard */,
+				3E7F267B2556391F00ABE8A5 /* Info.plist */,
+				3E7F26732556391900ABE8A5 /* Alinea.xcdatamodeld */,
+			);
+			path = Alinea;
+			sourceTree = "<group>";
+		};
+		3E7F26832556391F00ABE8A5 /* AlineaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26842556391F00ABE8A5 /* AlineaTests.swift */,
+				3E7F26862556391F00ABE8A5 /* Info.plist */,
+			);
+			path = AlineaTests;
+			sourceTree = "<group>";
+		};
+		3E7F268E2556391F00ABE8A5 /* AlineaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F268F2556391F00ABE8A5 /* AlineaUITests.swift */,
+				3E7F26912556391F00ABE8A5 /* Info.plist */,
