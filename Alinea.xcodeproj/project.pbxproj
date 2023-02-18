@@ -234,3 +234,75 @@
 				3E7F267D2556391F00ABE8A5 /* Frameworks */,
 				3E7F267E2556391F00ABE8A5 /* Resources */,
 			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7F26822556391F00ABE8A5 /* PBXTargetDependency */,
+			);
+			name = AlineaTests;
+			productName = AlineaTests;
+			productReference = 3E7F26802556391F00ABE8A5 /* AlineaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E7F268A2556391F00ABE8A5 /* AlineaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7F269A2556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "AlineaUITests" */;
+			buildPhases = (
+				3E7F26872556391F00ABE8A5 /* Sources */,
+				3E7F26882556391F00ABE8A5 /* Frameworks */,
+				3E7F26892556391F00ABE8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7F268D2556391F00ABE8A5 /* PBXTargetDependency */,
+			);
+			name = AlineaUITests;
+			productName = AlineaUITests;
+			productReference = 3E7F268B2556391F00ABE8A5 /* AlineaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7F265F2556391900ABE8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "jatin verma";
+				TargetAttributes = {
+					3E7F26662556391900ABE8A5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3E7F267F2556391F00ABE8A5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3E7F26662556391900ABE8A5;
+					};
+					3E7F268A2556391F00ABE8A5 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3E7F26662556391900ABE8A5;
+					};
+				};
+			};
+			buildConfigurationList = 3E7F26622556391900ABE8A5 /* Build configuration list for PBXProject "Alinea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7F265E2556391900ABE8A5;
+			productRefGroup = 3E7F26682556391900ABE8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7F26662556391900ABE8A5 /* Alinea */,
+				3E7F267F2556391F00ABE8A5 /* AlineaTests */,
+				3E7F268A2556391F00ABE8A5 /* AlineaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
