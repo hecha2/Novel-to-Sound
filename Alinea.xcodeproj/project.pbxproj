@@ -159,3 +159,78 @@
 			children = (
 				3E7F268F2556391F00ABE8A5 /* AlineaUITests.swift */,
 				3E7F26912556391F00ABE8A5 /* Info.plist */,
+			);
+			path = AlineaUITests;
+			sourceTree = "<group>";
+		};
+		3E7F269D2556395800ABE8A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26702556391900ABE8A5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3E7F269E2556396900ABE8A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F269F2556397F00ABE8A5 /* ALMainViewController.swift */,
+				3E7F26A625564C2800ABE8A5 /* ALFirstViewController.swift */,
+				3E7F26A825564C3100ABE8A5 /* ALSecondViewController.swift */,
+				3E7F26AA2556545300ABE8A5 /* ALThemesViewController.swift */,
+				3E7F26B525565C5400ABE8A5 /* ALTrendingViewController.swift */,
+				3E7F26BB25565FE300ABE8A5 /* ALCategoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E7F26A125563F1900ABE8A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26A4255645FC00ABE8A5 /* UIImage+Extension.swift */,
+				3E7F26A225563F2900ABE8A5 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E7F26AC255654A900ABE8A5 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F26AD255654BC00ABE8A5 /* ALThemeCollectionViewCell.swift */,
+				3E7F26AE255654BC00ABE8A5 /* ALThemeCollectionViewCell.xib */,
+				3E7F26B125565B7900ABE8A5 /* ALTrendingTableViewCell.swift */,
+				3E7F26B225565B7900ABE8A5 /* ALTrendingTableViewCell.xib */,
+				3E7F26B725565F4000ABE8A5 /* ALCatetoryTableViewCell.swift */,
+				3E7F26B825565F4000ABE8A5 /* ALCatetoryTableViewCell.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7F26662556391900ABE8A5 /* Alinea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7F26942556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "Alinea" */;
+			buildPhases = (
+				3E7F26632556391900ABE8A5 /* Sources */,
+				3E7F26642556391900ABE8A5 /* Frameworks */,
+				3E7F26652556391900ABE8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alinea;
+			productName = Alinea;
+			productReference = 3E7F26672556391900ABE8A5 /* Alinea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E7F267F2556391F00ABE8A5 /* AlineaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7F26972556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "AlineaTests" */;
+			buildPhases = (
+				3E7F267C2556391F00ABE8A5 /* Sources */,
+				3E7F267D2556391F00ABE8A5 /* Frameworks */,
+				3E7F267E2556391F00ABE8A5 /* Resources */,
+			);
