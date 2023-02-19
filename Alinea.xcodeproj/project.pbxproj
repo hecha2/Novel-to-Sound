@@ -306,3 +306,83 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3E7F26652556391900ABE8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F267A2556391F00ABE8A5 /* LaunchScreen.storyboard in Resources */,
+				3E7F26B0255654BC00ABE8A5 /* ALThemeCollectionViewCell.xib in Resources */,
+				3E7F26772556391F00ABE8A5 /* Assets.xcassets in Resources */,
+				3E7F26B425565B7900ABE8A5 /* ALTrendingTableViewCell.xib in Resources */,
+				3E7F26722556391900ABE8A5 /* Main.storyboard in Resources */,
+				3E7F26BA25565F4000ABE8A5 /* ALCatetoryTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F267E2556391F00ABE8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F26892556391F00ABE8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7F26632556391900ABE8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F266F2556391900ABE8A5 /* ViewController.swift in Sources */,
+				3E7F26A5255645FC00ABE8A5 /* UIImage+Extension.swift in Sources */,
+				3E7F26A725564C2800ABE8A5 /* ALFirstViewController.swift in Sources */,
+				3E7F26752556391900ABE8A5 /* Alinea.xcdatamodeld in Sources */,
+				3E7F26AF255654BC00ABE8A5 /* ALThemeCollectionViewCell.swift in Sources */,
+				3E7F26A925564C3100ABE8A5 /* ALSecondViewController.swift in Sources */,
+				3E7F266B2556391900ABE8A5 /* AppDelegate.swift in Sources */,
+				3E7F26B325565B7900ABE8A5 /* ALTrendingTableViewCell.swift in Sources */,
+				3E7F26A325563F2900ABE8A5 /* UIColor+Extension.swift in Sources */,
+				3E7F26B625565C5400ABE8A5 /* ALTrendingViewController.swift in Sources */,
+				3E7F26A02556397F00ABE8A5 /* ALMainViewController.swift in Sources */,
+				3E7F266D2556391900ABE8A5 /* SceneDelegate.swift in Sources */,
+				3E7F26AB2556545300ABE8A5 /* ALThemesViewController.swift in Sources */,
+				3E7F26BC25565FE300ABE8A5 /* ALCategoryViewController.swift in Sources */,
+				3E7F26B925565F4000ABE8A5 /* ALCatetoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F267C2556391F00ABE8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F26852556391F00ABE8A5 /* AlineaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7F26872556391F00ABE8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F26902556391F00ABE8A5 /* AlineaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7F26822556391F00ABE8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7F26662556391900ABE8A5 /* Alinea */;
+			targetProxy = 3E7F26812556391F00ABE8A5 /* PBXContainerItemProxy */;
+		};
+		3E7F268D2556391F00ABE8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7F26662556391900ABE8A5 /* Alinea */;
+			targetProxy = 3E7F268C2556391F00ABE8A5 /* PBXContainerItemProxy */;
