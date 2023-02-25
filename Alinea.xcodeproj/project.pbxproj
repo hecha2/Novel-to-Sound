@@ -689,3 +689,13 @@
 			isa = XCVersionGroup;
 			children = (
 				3E7F26742556391900ABE8A5 /* Alinea.xcdatamodel */,
+			);
+			currentVersion = 3E7F26742556391900ABE8A5 /* Alinea.xcdatamodel */;
+			path = Alinea.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E7F265F2556391900ABE8A5 /* Project object */;
+}
