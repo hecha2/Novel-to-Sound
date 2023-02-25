@@ -611,3 +611,81 @@
 				DEVELOPMENT_TEAM = PA7FGQPJCQ;
 				INFOPLIST_FILE = AlineaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.org.AlineaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alinea;
+			};
+			name = Debug;
+		};
+		3E7F269C2556391F00ABE8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7FGQPJCQ;
+				INFOPLIST_FILE = AlineaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.org.AlineaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alinea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7F26622556391900ABE8A5 /* Build configuration list for PBXProject "Alinea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7F26922556391F00ABE8A5 /* Debug */,
+				3E7F26932556391F00ABE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7F26942556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "Alinea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7F26952556391F00ABE8A5 /* Debug */,
+				3E7F26962556391F00ABE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7F26972556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "AlineaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7F26982556391F00ABE8A5 /* Debug */,
+				3E7F26992556391F00ABE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7F269A2556391F00ABE8A5 /* Build configuration list for PBXNativeTarget "AlineaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7F269B2556391F00ABE8A5 /* Debug */,
+				3E7F269C2556391F00ABE8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E7F26732556391900ABE8A5 /* Alinea.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E7F26742556391900ABE8A5 /* Alinea.xcdatamodel */,
