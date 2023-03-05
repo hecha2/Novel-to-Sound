@@ -9,4 +9,6 @@
 import XCTest
 @testable import Alinea
 
-cl
+class AlineaTests: XCTestCase {
+
+    override func setUpWithError()
