@@ -15,4 +15,5 @@ class AlineaTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
-    overr
+    override func tearDownWithError() throws {
+        // Put teardown code here.
