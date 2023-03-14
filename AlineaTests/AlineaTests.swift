@@ -24,4 +24,6 @@ class AlineaTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testPerformanceExample() thro
+    func testPerformanceExample() throws {
+        // This is an example of a performance test case.
+      
