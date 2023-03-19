@@ -8,4 +8,7 @@
 
 import XCTest
 
-class AlineaUITes
+class AlineaUITests: XCTestCase {
+
+    override func setUpWithError() throws {
+        // Pu
