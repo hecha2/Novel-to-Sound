@@ -24,4 +24,5 @@ class AlineaUITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must la
+        // UI tests must launch the application that they test.
+        let app = XCUIApplication()
