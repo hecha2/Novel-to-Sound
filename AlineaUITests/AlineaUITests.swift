@@ -39,4 +39,5 @@ class AlineaUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
-    
+    }
+}
